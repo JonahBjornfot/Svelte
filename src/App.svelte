@@ -71,7 +71,7 @@
 
 <main>
 	<h1>Välkommen till {name} Svelte!</h1>
-	<h3>Jag jobbar just nu på <a href="https://www.youtube.com/watch?v=XJHIiMXk04E&ab_channel=LolStevenlinLolStevenlin">Svelte tutorial</a> för att lära mig mer Svelte.</h3>    
+	<h3>Jag jobbar just nu på <a href="https://www.youtube.com/watch?v=WxptxCewdBo&t=61s">Svelte tutorial</a> för att lära mig mer Svelte.</h3>    
 </main>
 
 <center>
@@ -120,30 +120,22 @@
 	:global(body) {
 		background-color: #ffffff;
 		color: rgb(51, 51, 51);
-		transition: background-color 1s
 	}
 	:global(body.dark-mode) {
-		background-color: #1b1818;
+		background-color: #ffffff;
 		background-image: url("https://wallpaperaccess.com/full/3513674.jpg");
 		color: #bfc2c7;
 	}
 	:global(body.dark-mode3) {
 		background-color: #1b1818;
 		color: #bfc2c7;
+		transition: background-color 1s
 	}
 	:global(body.dark-mode2) {
 		background-image: url("https://www.teahub.io/photos/full/288-2886271_hd-anime-gif.gif");
-		background-repeat:no-repeat;
 		color: #bfc2c7;
 	}
-	/* button {
-		background-color: #000000;
-		color: white;	
-		border: none;
-		border-radius: 4px;
-		padding: 0.5rem;
-		text-transform: uppercase;
-	} */
+	
 	input {
 		background-color: #000000;
 		color: white;
