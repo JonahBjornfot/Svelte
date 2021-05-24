@@ -71,7 +71,7 @@
 
 <main>
 	<h1>Välkommen till {name} Svelte!</h1>
-	<h3>Jag jobbar just nu på <a href="https://www.youtube.com/watch?v=WxptxCewdBo&t=61s">Svelte tutorial</a> för att lära mig mer Svelte.</h3>    
+	<h3>Jag jobbar just nu på <a href="https://youtu.be/jKtRrdZYwHk">Svelte tutorial</a> för att lära mig mer Svelte.</h3>    
 </main>
 
 <center>
